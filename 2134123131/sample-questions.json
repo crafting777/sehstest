@@ -1,0 +1,81 @@
+{
+  "exams": [
+    {
+      "name": "May 2023 Paper 1",
+      "questions": [
+        {
+          "question": "Which of the following is the primary function of the cardiovascular system during exercise?",
+          "answers": [
+            "Transport of oxygen and nutrients to muscles",
+            "Regulation of body temperature",
+            "Production of energy through ATP",
+            "Coordination of muscle contractions"
+          ],
+          "correctAnswer": 0,
+          "image": null
+        },
+        {
+          "question": "What is the recommended heart rate zone for aerobic training?",
+          "answers": [
+            "50-60% of maximum heart rate",
+            "60-70% of maximum heart rate",
+            "70-85% of maximum heart rate",
+            "85-100% of maximum heart rate"
+          ],
+          "correctAnswer": 2,
+          "image": null
+        },
+        {
+          "question": "Which muscle group is primarily responsible for knee extension?",
+          "answers": [
+            "Hamstrings",
+            "Quadriceps",
+            "Gastrocnemius",
+            "Gluteus maximus"
+          ],
+          "correctAnswer": 1,
+          "image": null
+        },
+        {
+          "question": "Identify the muscle labeled X in the diagram below.",
+          "answers": [
+            "Biceps brachii",
+            "Triceps brachii",
+            "Deltoid",
+            "Pectoralis major"
+          ],
+          "correctAnswer": 1,
+          "image": "images/muscle-diagram.png"
+        }
+      ]
+    },
+    {
+      "name": "November 2022 Paper 1",
+      "questions": [
+        {
+          "question": "What is the main energy system used during a 100-meter sprint?",
+          "answers": [
+            "Aerobic system",
+            "Anaerobic glycolysis",
+            "ATP-PC system",
+            "Fat oxidation"
+          ],
+          "correctAnswer": 2,
+          "image": null
+        },
+        {
+          "question": "Which of the following best describes the FITT principle?",
+          "answers": [
+            "Frequency, Intensity, Time, Type",
+            "Flexibility, Intensity, Training, Type",
+            "Frequency, Interval, Time, Training",
+            "Flexibility, Interval, Training, Time"
+          ],
+          "correctAnswer": 0,
+          "image": null
+        }
+      ]
+    }
+  ]
+}
+
