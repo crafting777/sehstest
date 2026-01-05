@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IB Sports Exercise Health Sciences Quiz</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -27,6 +28,21 @@
                 <label for="file-input" class="upload-button">Choose Questions File (JSON)</label>
                 <p class="help-text">Select a JSON file containing your questions</p>
                 <p class="help-text" style="margin-top: 10px; font-size: 0.85em; color: #666;">💾 Questions and progress are automatically saved</p>
+            </div>
+            
+            <div class="image-path-setting" style="margin-top: 20px; padding: 15px; background: #e3f2fd; border-radius: 10px; border: 2px solid #2196f3;">
+                <label for="image-base-url-input" style="display: block; font-weight: bold; margin-bottom: 8px; color: #1565c0;">
+                    🌐 Image Base URL (For Vercel/Web Hosting)
+                </label>
+                <input type="text" id="image-base-url-input" placeholder="e.g., https://your-site.vercel.app/ or /" 
+                       style="width: 100%; padding: 10px; border: 2px solid #2196f3; border-radius: 8px; font-size: 1em;" />
+                <p style="margin-top: 8px; font-size: 0.85em; color: #1565c0;">
+                    If images don't work on Vercel, enter your site URL here (e.g., https://your-app.vercel.app/). 
+                    Leave empty for localhost or if images already have full URLs.
+                </p>
+                <button id="save-image-url-button" class="control-button" style="background: #2196f3; color: white; margin-top: 10px;">
+                    💾 Save Image URL
+                </button>
             </div>
             <div class="mode-selector">
                 <label>
@@ -66,7 +82,12 @@
             
             <!-- Stored Exams List -->
             <div id="stored-exams-section" style="margin-top: 40px; display: none;">
-                <h2 style="margin-bottom: 20px;">📚 Stored Exams</h2>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                    <h2 style="margin: 0;">📚 Stored Exams</h2>
+                    <button id="export-all-button" class="control-button" style="background: #28a745;">
+                        💾 Export All Tests
+                    </button>
+                </div>
                 <div id="exams-list" class="exams-list"></div>
             </div>
         </div>
@@ -152,7 +173,12 @@
                 </div>
             </div>
             <div id="incorrect-questions-section" style="margin-top: 30px; display: none;">
-                <h3 style="margin-bottom: 15px; color: #dc3545;">❌ Incorrect Questions</h3>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                    <h3 style="margin: 0; color: #dc3545;">❌ Incorrect Questions</h3>
+                    <button id="export-incorrect-button" class="control-button" style="background: #dc3545;">
+                        📥 Export Incorrect Answers
+                    </button>
+                </div>
                 <div id="incorrect-questions-list" class="incorrect-questions-list"></div>
             </div>
             <div class="results-actions">
