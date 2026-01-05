@@ -1,3 +1,44 @@
+// Built-in Exams Data - All exams are pre-loaded
+const BUILT_IN_EXAMS = {
+  "exams": [
+    {
+      "name": "May 2021 SEHS Paper 1 Time Zone 1",
+      "questions": [
+        {"question": "What are the functions of the axial skeleton?", "answers": ["muscle attachment    protection of organs    fine motor movement", "support of the body    protection of organs    fine motor movement", "support of the body    protection of organs    muscle attachment", "muscle attachment    support of the body    fine motor movement"], "correctAnswer": 2, "image": null},
+        {"question": "Which statement is correct about the insertion of a skeletal muscle?", "answers": ["The attachment of a muscle tendon to a moveable bone", "The attachment of a muscle tendon to a stationary bone", "The attachment of a muscle tendon at the proximal end", "The attachment of a muscle tendon on the anterior aspect"], "correctAnswer": 0, "image": null},
+        {"question": "The diagram shows the skeletal muscles in the anterior upper leg. Which muscle is labelled X?", "answers": ["Rectus femoris", "Vastus medialis", "Sartorius", "Vastus lateralis"], "correctAnswer": 3, "image": "images/may2021_q3_anterior_upper_leg.PNG"},
+        {"question": "The graph below represents lung volume. What is labelled X?", "answers": ["Tidal volume", "Vital capacity", "Expiratory reserve volume", "Inspiratory reserve volume"], "correctAnswer": 1, "image": "images/may2021_q4_lung_volume.PNG"},
+        {"question": "Which statement(s) about the functions of the conducting airways is/are correct?\nI. Provide a low resistance pathway for airflow\nII. Provide a site for gaseous exchange\nIII. Warm and moisten the air", "answers": ["I and II only", "I and III only", "II and III only", "I, II and III"], "correctAnswer": 1, "image": null},
+        {"question": "What causes an increase in ventilation?", "answers": ["A decrease in carbon dioxide content in the blood", "A decrease in hydrogen ions in the blood", "A decrease in blood pH", "A decrease in blood acidity"], "correctAnswer": 2, "image": null},
+        {"question": "What is the primary role of platelets?", "answers": ["Supporting immune function", "Carrying dissolved substances", "Transporting oxygen", "Blood clotting and preventing bleeding"], "correctAnswer": 3, "image": null},
+        {"question": "How is cardiac output calculated?", "answers": ["Heart rate × stroke volume", "Heart rate + stroke volume", "Heart rate + tidal volume", "Tidal volume × stroke volume"], "correctAnswer": 0, "image": null},
+        {"question": "What does systolic blood pressure measure?", "answers": ["The force exerted on venous walls during atrial contraction", "The force exerted on arterial walls during atrial contraction", "The force exerted on venous walls during ventricular contraction", "The force exerted on arterial walls during ventricular contraction"], "correctAnswer": 3, "image": null},
+        {"question": "Which are macronutrients?\nI. Fats\nII. Carbohydrates\nIII. Water", "answers": ["I and II only", "I and III only", "II and III only", "I, II and III"], "correctAnswer": 3, "image": null},
+        {"question": "What is the composition of triacylglycerol?", "answers": ["Three glycerol and one fatty acid molecules", "One glucose and three fatty acid molecules", "One glycerol and three fatty acid molecules", "Three glucose and one fatty acid molecules"], "correctAnswer": 2, "image": null},
+        {"question": "What is a function of adrenaline?", "answers": ["Increases stimulation of the parasympathetic nervous system", "Increases heart rate", "Decreases glycogenolysis", "Decreases heart rate"], "correctAnswer": 1, "image": null},
+        {"question": "What is the definition of cell respiration?", "answers": ["The controlled release of energy in the form of adenosine triphosphate (ATP) from organic compounds in cells", "The controlled release of energy in the form of adenosine diphosphate (ADP) from organic compounds in cells", "The controlled release of energy in the form of glycogen from organic compounds in cells", "The controlled release of energy in the form of carbon dioxide from organic compounds in cells"], "correctAnswer": 0, "image": null},
+        {"question": "Which energy system is the predominant contributor of ATP for a runner participating in a marathon?", "answers": ["ATP–PC system", "Anaerobic system", "Lactic acid system", "Aerobic system"], "correctAnswer": 3, "image": null},
+        {"question": "What shortens during muscular contraction according to the sliding filament theory?", "answers": ["Z line", "A band", "H zone", "Actin"], "correctAnswer": 2, "image": null},
+        {"question": "What is an example of an isotonic eccentric contraction for the triceps?", "answers": ["Lowering phase (elbow flexion) in a push-up", "Lifting phase (elbow extension) in a push-up", "Execution phase (elbow extension) when throwing a ball", "Preparation phase (elbow flexion) when throwing a ball"], "correctAnswer": 0, "image": null},
+        {"question": "Which term describes a scalar quantity?", "answers": ["Acceleration", "Distance", "Displacement", "Velocity"], "correctAnswer": 1, "image": null},
+        {"question": "What is an example of a first-class lever?", "answers": ["Triceps contracting, moving the elbow", "Biceps contracting, moving the elbow", "Quadriceps contracting, moving the knee", "Hamstrings contracting, moving the knee"], "correctAnswer": 0, "image": null},
+        {"question": "How is angular momentum calculated?", "answers": ["Moment of inertia ÷ angular velocity", "Moment of inertia - angular velocity", "Moment of inertia × angular velocity", "Moment of inertia + angular velocity"], "correctAnswer": 2, "image": null},
+        {"question": "For successful completion, which event requires the greatest angle of release?", "answers": ["High jump", "Long jump", "Shot put", "Discus"], "correctAnswer": 0, "image": null},
+        {"question": "Which is an example of perceptual skill?", "answers": ["Knowledge of team tactics", "Shooting in basketball", "Assessing the putting green in golf", "Receiving a serve in tennis"], "correctAnswer": 2, "image": null},
+        {"question": "What does ability refer to?", "answers": ["The production of goal-orientated movements", "The way in which a sports skill is performed", "A learned skill that is specific to the task", "The general trait or capacity of the individual"], "correctAnswer": 3, "image": null},
+        {"question": "Why are yellow balls used in tennis?", "answers": ["To increase signal intensity", "To limit background noise", "To improve the efficiency of sense organs", "To improve memory retrieval"], "correctAnswer": 0, "image": null},
+        {"question": "What is the average capacity of short-term memory?", "answers": ["1 bit of information", "2 ± 7 bits of information", "7 ± 2 bits of information", "Unlimited"], "correctAnswer": 2, "image": null},
+        {"question": "What is Hick's Law?", "answers": ["There is an increase in reaction time with increased number of choices.", "There is a decrease in reaction time with increased number of choices.", "There is an increase in movement time with increased number of choices.", "There is a decrease in movement time with increased number of choices."], "correctAnswer": 0, "image": null},
+        {"question": "Which describes practice to performance transfer in tennis?", "answers": ["Hitting against a ball machine", "Understanding the biomechanics of hitting", "Training for strength to improve hitting", "Hitting right-handed and left-handed"], "correctAnswer": 0, "image": null},
+        {"question": "An athlete completed five timed trials of a 20 m sprint test. What is the mean time?\n\nTrial | Time (s)\n1 | 3.95\n2 | 4.05\n3 | 3.80\n4 | 4.00\n5 | 4.20", "answers": ["3.90 s", "3.95 s", "4.00 s", "4.05 s"], "correctAnswer": 2, "image": null},
+        {"question": "What does a large standard deviation indicate?", "answers": ["The data is clustered closely to the mean.", "The data is spread widely around the mean.", "The data is normally distributed.", "The data is not normally distributed."], "correctAnswer": 1, "image": null},
+        {"question": "Which fitness component does the stork stand test?", "answers": ["Reaction time", "Balance", "Strength", "Muscle endurance"], "correctAnswer": 1, "image": null},
+        {"question": "Which are elements of a general training programme?\nI. Warm up\nII. Endurance training\nIII. Recreational activities and sports", "answers": ["I and II only", "I and III only", "II and III only", "I, II and III"], "correctAnswer": 3, "image": null}
+      ]
+    }
+  ]
+};
+
 // Quiz Application State
 let allQuestions = [];
 let currentQuestions = [];
@@ -45,6 +86,10 @@ const randomizeAnswersCheckbox = document.getElementById('randomize-answers-chec
 const endRapidFireButton = document.getElementById('end-rapidfire-button');
 const incorrectQuestionsSection = document.getElementById('incorrect-questions-section');
 const incorrectQuestionsList = document.getElementById('incorrect-questions-list');
+const exportAllButton = document.getElementById('export-all-button');
+const exportIncorrectButton = document.getElementById('export-incorrect-button');
+const imageBaseUrlInput = document.getElementById('image-base-url-input');
+const saveImageUrlButton = document.getElementById('save-image-url-button');
 
 // Event Listeners
 fileInput.addEventListener('change', handleFileUpload);
@@ -66,9 +111,15 @@ saveProgressButton.addEventListener('click', saveProgress);
 backToHomeButton.addEventListener('click', goBackToHome);
 backToHomeResultsButton.addEventListener('click', goBackToHome);
 endRapidFireButton.addEventListener('click', endRapidFire);
+exportAllButton.addEventListener('click', exportAllTests);
+exportIncorrectButton.addEventListener('click', exportIncorrectAnswers);
+saveImageUrlButton.addEventListener('click', saveImageBaseUrl);
 
 // Check for saved data on page load
-window.addEventListener('load', checkForSavedData);
+window.addEventListener('load', async () => {
+    await checkForSavedData();
+    loadImageBaseUrl();
+});
 window.addEventListener('beforeunload', saveProgress);
 
 // Storage Functions
@@ -127,10 +178,96 @@ function loadProgress() {
     return null;
 }
 
+// Exam scores storage functions
+function saveExamScore(examName, scoreData) {
+    try {
+        const scores = getExamScores();
+        scores[examName] = {
+            percentage: scoreData.percentage,
+            correct: scoreData.correct,
+            total: scoreData.total,
+            timestamp: new Date().toISOString(),
+            date: new Date().toLocaleDateString()
+        };
+        localStorage.setItem('examScores', JSON.stringify(scores));
+    } catch (error) {
+        console.error('Error saving exam score:', error);
+    }
+}
+
+function getExamScores() {
+    try {
+        const saved = localStorage.getItem('examScores');
+        if (saved) {
+            return JSON.parse(saved);
+        }
+    } catch (error) {
+        console.error('Error loading exam scores:', error);
+    }
+    return {};
+}
+
+function getExamScore(examName) {
+    const scores = getExamScores();
+    return scores[examName] || null;
+}
+
+// Image base URL functions for Vercel/hosting
+function saveImageBaseUrl() {
+    const baseUrl = imageBaseUrlInput.value.trim();
+    localStorage.setItem('imageBaseUrl', baseUrl);
+    alert('Image base URL saved! Images will now use this base URL.');
+}
+
+function loadImageBaseUrl() {
+    const savedUrl = localStorage.getItem('imageBaseUrl');
+    if (savedUrl) {
+        imageBaseUrlInput.value = savedUrl;
+    } else {
+        // Auto-detect if we're on Vercel or a hosted site
+        const currentUrl = window.location.origin;
+        if (currentUrl.includes('vercel.app') || currentUrl.includes('netlify.app') || 
+            currentUrl.includes('github.io') || currentUrl.includes('herokuapp.com')) {
+            imageBaseUrlInput.value = currentUrl + '/';
+        }
+    }
+}
+
+function getImageBaseUrl() {
+    return localStorage.getItem('imageBaseUrl') || '';
+}
+
+function resolveImagePath(imagePath) {
+    if (!imagePath || imagePath === 'null' || imagePath === null) {
+        return null;
+    }
+    
+    // If it's already a full URL or data URI, return as is
+    if (imagePath.startsWith('http://') || imagePath.startsWith('https://') || imagePath.startsWith('data:')) {
+        return imagePath;
+    }
+    
+    // Get base URL
+    const baseUrl = getImageBaseUrl();
+    
+    // If base URL is set, prepend it
+    if (baseUrl) {
+        // Ensure base URL ends with /
+        const base = baseUrl.endsWith('/') ? baseUrl : baseUrl + '/';
+        // Remove leading / from image path if present
+        const cleanPath = imagePath.startsWith('/') ? imagePath.substring(1) : imagePath;
+        return base + cleanPath;
+    }
+    
+    // No base URL set, return original path (works for localhost)
+    return imagePath;
+}
+
 function clearSavedData() {
     if (confirm('Are you sure you want to clear all saved questions and progress?')) {
         localStorage.removeItem('quizQuestions');
         localStorage.removeItem('quizProgress');
+        localStorage.removeItem('examScores');
         allQuestions = [];
         examNames = [];
         resumeSection.style.display = 'none';
@@ -139,17 +276,280 @@ function clearSavedData() {
     }
 }
 
-function checkForSavedData() {
+// Load built-in exams from embedded data file
+async function loadBuiltInExams() {
+    const existingQuestions = [...allQuestions];
+    const existingExamNames = [...examNames];
+    
+    try {
+        // Fetch the built-in exams data file
+        const response = await fetch('built-in-exams.json');
+        if (!response.ok) {
+            console.log('Built-in exams file not found, skipping...');
+            return;
+        }
+        
+        const builtInExamsData = await response.json();
+        
+        // Process built-in exams (only add if they don't already exist)
+        if (builtInExamsData.exams) {
+            builtInExamsData.exams.forEach(exam => {
+                const examName = exam.name || 'Unnamed Exam';
+                
+                // Only add if exam doesn't already exist
+                if (!existingExamNames.includes(examName)) {
+                    examNames.push(examName);
+                    
+                    exam.questions.forEach((q, idx) => {
+                        allQuestions.push({
+                            ...q,
+                            examName: examName,
+                            id: `builtin-${examName}-${idx}`
+                        });
+                    });
+                }
+            });
+        }
+        
+        // Save to storage if we added any new exams
+        if (allQuestions.length > existingQuestions.length) {
+            saveQuestionsToStorage();
+        }
+    } catch (error) {
+        console.log('Error loading built-in exams:', error);
+        // Silently fail - user can still upload exams manually
+    }
+}
+
+async function checkForSavedData() {
+    // First load built-in exams
+    await loadBuiltInExams();
+    
+    // Then load any saved exams (will merge, not replace)
     const hasQuestions = loadQuestionsFromStorage();
     const hasProgress = loadProgress();
     
-    if (hasQuestions) {
+    if (hasQuestions || allQuestions.length > 0) {
         populateExamDropdown();
         displayStoredExams();
         if (hasProgress) {
             resumeSection.style.display = 'block';
         }
     }
+}
+
+// Export all tests to a ZIP file
+async function exportAllTests() {
+    if (allQuestions.length === 0) {
+        alert('No tests to export. Please load some questions first.');
+        return;
+    }
+    
+    // Check if JSZip is available
+    if (typeof JSZip === 'undefined') {
+        alert('Error: JSZip library not loaded. Please check your internet connection and refresh the page.');
+        return;
+    }
+    
+    try {
+        // Group questions by exam name
+        const examsData = {};
+        examNames.forEach(examName => {
+            examsData[examName] = {
+                name: examName,
+                questions: []
+            };
+        });
+        
+        // Add questions to their respective exams
+        allQuestions.forEach(question => {
+            const examName = question.examName || 'All Questions';
+            if (!examsData[examName]) {
+                examsData[examName] = {
+                    name: examName,
+                    questions: []
+                };
+            }
+            
+            // Remove internal properties (id, examName) and keep only original question data
+            const cleanQuestion = {
+                question: question.question,
+                answers: question.answers,
+                correctAnswer: question.correctAnswer,
+                image: question.image || null
+            };
+            
+            examsData[examName].questions.push(cleanQuestion);
+        });
+        
+        // Create a new JSZip instance
+        const zip = new JSZip();
+        
+        // Add each exam as a separate JSON file to the ZIP
+        examNames.forEach(examName => {
+            // Create export data for this exam only
+            const exportData = {
+                exams: [examsData[examName]]
+            };
+            
+            // Create JSON string with pretty formatting
+            const jsonString = JSON.stringify(exportData, null, 2);
+            
+            // Create safe filename from exam name
+            const safeFileName = examName.replace(/[^a-z0-9]/gi, '_').toLowerCase() + '.json';
+            
+            // Add file to ZIP
+            zip.file(safeFileName, jsonString);
+        });
+        
+        // Generate the ZIP file
+        const zipBlob = await zip.generateAsync({ type: 'blob' });
+        
+        // Create download link
+        const url = URL.createObjectURL(zipBlob);
+        const link = document.createElement('a');
+        link.href = url;
+        
+        // Create filename with current date
+        const date = new Date();
+        const dateStr = date.toISOString().split('T')[0]; // YYYY-MM-DD format
+        link.download = `all-exams-export-${dateStr}.zip`;
+        
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        
+        // Clean up
+        URL.revokeObjectURL(url);
+        
+        alert(`Successfully exported ${examNames.length} exam(s) to ZIP file!`);
+    } catch (error) {
+        console.error('Error creating ZIP file:', error);
+        alert('Error creating ZIP file: ' + error.message);
+    }
+}
+
+// Export incorrect answers for LLM analysis
+function exportIncorrectAnswers() {
+    if (incorrectQuestions.length === 0) {
+        alert('No incorrect answers to export.');
+        return;
+    }
+    
+    // Format data for LLM analysis
+    const exportData = {
+        summary: {
+            totalIncorrect: incorrectQuestions.length,
+            exportDate: new Date().toISOString()
+        },
+        incorrectQuestions: incorrectQuestions.map((item, index) => {
+            // Map answer choices with labels
+            const answerChoices = item.allAnswers.map((answer, idx) => {
+                const label = ['A', 'B', 'C', 'D'][idx];
+                return {
+                    label: label,
+                    text: answer,
+                    isCorrect: label === item.correctAnswer,
+                    isUserAnswer: label === item.userAnswer
+                };
+            });
+            
+            return {
+                questionNumber: index + 1,
+                question: item.question,
+                answerChoices: answerChoices,
+                userAnswer: {
+                    label: item.userAnswer,
+                    text: item.userAnswerText
+                },
+                correctAnswer: {
+                    label: item.correctAnswer,
+                    text: item.correctAnswerText
+                },
+                image: item.image || null
+            };
+        })
+    };
+    
+    // Create JSON export
+    const jsonString = JSON.stringify(exportData, null, 2);
+    
+    // Create text format for easy LLM pasting
+    let textFormat = `INCORRECT ANSWERS ANALYSIS\n`;
+    textFormat += `Total Incorrect: ${incorrectQuestions.length}\n`;
+    textFormat += `Export Date: ${new Date().toLocaleString()}\n\n`;
+    textFormat += `========================================\n\n`;
+    
+    incorrectQuestions.forEach((item, index) => {
+        textFormat += `QUESTION ${index + 1}:\n`;
+        textFormat += `${item.question}\n\n`;
+        
+        textFormat += `ANSWER CHOICES:\n`;
+        item.allAnswers.forEach((answer, idx) => {
+            const label = ['A', 'B', 'C', 'D'][idx];
+            let marker = '  ';
+            if (label === item.correctAnswer) marker = '✓ ';
+            if (label === item.userAnswer) marker = '✗ ';
+            textFormat += `${marker}${label}) ${answer}\n`;
+        });
+        
+        textFormat += `\nMY ANSWER: ${item.userAnswer}) ${item.userAnswerText}\n`;
+        textFormat += `CORRECT ANSWER: ${item.correctAnswer}) ${item.correctAnswerText}\n`;
+        
+        if (item.image) {
+            textFormat += `IMAGE: ${item.image}\n`;
+        }
+        
+        textFormat += `\n========================================\n\n`;
+    });
+    
+    // Create ZIP with both formats
+    if (typeof JSZip !== 'undefined') {
+        createIncorrectAnswersZip(jsonString, textFormat);
+    } else {
+        // Fallback: just download JSON if JSZip not available
+        downloadFile(jsonString, 'incorrect-answers.json', 'application/json');
+        alert('Exported incorrect answers as JSON. Note: Install JSZip for text format export.');
+    }
+}
+
+async function createIncorrectAnswersZip(jsonString, textFormat) {
+    try {
+        const zip = new JSZip();
+        
+        // Add JSON file
+        zip.file('incorrect-answers.json', jsonString);
+        
+        // Add text file for easy LLM pasting
+        zip.file('incorrect-answers.txt', textFormat);
+        
+        // Generate ZIP
+        const zipBlob = await zip.generateAsync({ type: 'blob' });
+        
+        // Download
+        const date = new Date();
+        const dateStr = date.toISOString().split('T')[0];
+        downloadFile(zipBlob, `incorrect-answers-${dateStr}.zip`, 'application/zip');
+        
+        alert(`Successfully exported ${incorrectQuestions.length} incorrect answer(s)!\n\nThe ZIP contains:\n- incorrect-answers.json (structured data)\n- incorrect-answers.txt (easy to paste into LLMs)`);
+    } catch (error) {
+        console.error('Error creating ZIP:', error);
+        // Fallback to JSON only
+        downloadFile(jsonString, 'incorrect-answers.json', 'application/json');
+        alert('Error creating ZIP. Exported JSON file instead.');
+    }
+}
+
+function downloadFile(content, filename, mimeType) {
+    const blob = content instanceof Blob ? content : new Blob([content], { type: mimeType });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = filename;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
 }
 
 function displayStoredExams() {
@@ -165,9 +565,11 @@ function displayStoredExams() {
     const examStats = {};
     examNames.forEach(examName => {
         const examQuestions = allQuestions.filter(q => q.examName === examName);
+        const examScore = getExamScore(examName);
         examStats[examName] = {
             count: examQuestions.length,
-            examName: examName
+            examName: examName,
+            score: examScore
         };
     });
     
@@ -181,10 +583,29 @@ function displayStoredExams() {
         const examItem = document.createElement('div');
         examItem.className = 'exam-item';
         
+        // Format score display
+        let scoreDisplay = '';
+        if (exam.score) {
+            const scoreColor = exam.score.percentage >= 70 ? '#28a745' : exam.score.percentage >= 50 ? '#ffc107' : '#dc3545';
+            scoreDisplay = `
+                <div class="exam-score" style="margin-top: 8px; font-size: 0.95em;">
+                    <span style="color: ${scoreColor}; font-weight: bold;">
+                        📊 Last Score: ${exam.score.percentage}% (${exam.score.correct}/${exam.score.total})
+                    </span>
+                    <span style="color: #666; font-size: 0.85em; margin-left: 8px;">
+                        ${exam.score.date}
+                    </span>
+                </div>
+            `;
+        } else {
+            scoreDisplay = '<div class="exam-score" style="margin-top: 8px; font-size: 0.9em; color: #999;">No score yet</div>';
+        }
+        
         examItem.innerHTML = `
             <div class="exam-info">
                 <div class="exam-name">${exam.examName}</div>
                 <div class="exam-details">${exam.count} question${exam.count !== 1 ? 's' : ''}</div>
+                ${scoreDisplay}
             </div>
             <div class="exam-actions">
                 <button class="start-exam-button" data-exam-name="${exam.examName}">
@@ -560,13 +981,12 @@ function displayQuestion() {
     
     // Handle image
     if (question.image) {
-        questionImageContainer.style.display = 'block';
-        // Handle both URL strings and base64 data
-        if (question.image.startsWith('data:') || question.image.startsWith('http')) {
-            questionImage.src = question.image;
+        const resolvedImagePath = resolveImagePath(question.image);
+        if (resolvedImagePath) {
+            questionImageContainer.style.display = 'block';
+            questionImage.src = resolvedImagePath;
         } else {
-            // Assume it's a relative path
-            questionImage.src = question.image;
+            questionImageContainer.style.display = 'none';
         }
     } else {
         questionImageContainer.style.display = 'none';
@@ -857,6 +1277,21 @@ function showResults() {
     document.getElementById('incorrect-answers').textContent = incorrect;
     document.getElementById('percentage-score').textContent = percentage + '%';
     
+    // Save score for the current exam (only for individual exams, not "All Questions" mode)
+    if (!isRapidFire && currentMode === 'exam' && examNames.length > 0) {
+        const examName = examNames[currentExamIndex];
+        if (examName) {
+            saveExamScore(examName, {
+                percentage: percentage,
+                correct: correct,
+                total: total
+            });
+            
+            // Update the stored exams display to show new score
+            displayStoredExams();
+        }
+    }
+    
     // Display incorrect questions
     displayIncorrectQuestions();
 }
@@ -877,7 +1312,10 @@ function displayIncorrectQuestions() {
         
         let imageHtml = '';
         if (item.image) {
-            imageHtml = `<div style="text-align: center; margin-bottom: 15px;"><img src="${item.image}" alt="Question diagram" style="max-width: 100%; max-height: 300px; border-radius: 8px;" /></div>`;
+            const resolvedImagePath = resolveImagePath(item.image);
+            if (resolvedImagePath) {
+                imageHtml = `<div style="text-align: center; margin-bottom: 15px;"><img src="${resolvedImagePath}" alt="Question diagram" style="max-width: 100%; max-height: 300px; border-radius: 8px;" /></div>`;
+            }
         }
         
         questionCard.innerHTML = `
