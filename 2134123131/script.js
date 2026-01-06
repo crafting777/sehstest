@@ -116,7 +116,37 @@ exportIncorrectButton.addEventListener('click', exportIncorrectAnswers);
 saveImageUrlButton.addEventListener('click', saveImageBaseUrl);
 
 // Check for saved data on page load
+// Dark mode toggle
+const darkModeToggle = document.getElementById('dark-mode-toggle');
+const darkModeIcon = document.getElementById('dark-mode-icon');
+
+// Load dark mode preference
+function loadDarkMode() {
+    const isDarkMode = localStorage.getItem('darkMode') === 'true';
+    if (isDarkMode) {
+        document.body.classList.add('dark-mode');
+        darkModeIcon.textContent = '☀️';
+    } else {
+        document.body.classList.remove('dark-mode');
+        darkModeIcon.textContent = '🌙';
+    }
+}
+
+// Toggle dark mode
+function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+    const isDarkMode = document.body.classList.contains('dark-mode');
+    localStorage.setItem('darkMode', isDarkMode);
+    darkModeIcon.textContent = isDarkMode ? '☀️' : '🌙';
+}
+
+// Event listener for dark mode toggle
+if (darkModeToggle) {
+    darkModeToggle.addEventListener('click', toggleDarkMode);
+}
+
 window.addEventListener('load', async () => {
+    loadDarkMode(); // Load dark mode preference first
     await checkForSavedData();
     loadImageBaseUrl();
 });
