@@ -1198,10 +1198,10 @@
                                         {
                                             "question":  "Which option is correct about delayed onset muscle soreness (DOMS)?",
                                             "answers":  [
-                                                            "DOMS is caused by: Increasing the eccentric muscle contractions during early training, DOMS is minimized by: Starting training at a low intensity and gradually increasing the intensity",
-                                                            "DOMS is caused by: Starting training at a low intensity and gradually increasing the intensity, DOMS is minimized by: Warming up before exercise",
-                                                            "DOMS is caused by: Warming up before exercise, DOMS is minimized by: Cooling down after exercise",
-                                                            "DOMS is caused by: Cooling down after exercise, DOMS is minimized by: Increasing the eccentric muscle contractions during early training"
+                                                            "DOMS is caused by: Eccentric Muscle Contractions, DOMS is minimized by: Increasing the eccentric muscle contractions during early training",
+                                                            "DOMS is caused by: Concentric Muscle Contractions, DOMS is minimized by: Starting training at a low intensity and gradually increasing the intensity",
+                                                            "DOMS is caused by: Eccentric Muscle Contractions, DOMS is minimized by: Warming up before exercise",
+                                                            "DOMS is caused by: Concentric Muscle Contractions, DOMS is minimized by: Cooling down after exercise"
                                                         ],
                                             "correctAnswer":  2,
                                             "image":  null
@@ -1741,7 +1741,7 @@
                                                             "Pulmonary vein",
                                                             "Vena cava"
                                                         ],
-                                            "correctAnswer":  1,
+                                            "correctAnswer":  3,
                                             "image":  "images/q6_heart_diagram.PNG"
                                         },
                                         {
@@ -1862,7 +1862,7 @@
                                                             "Abduction",
                                                             "Adduction"
                                                         ],
-                                            "correctAnswer":  2,
+                                            "correctAnswer":  3,
                                             "image":  "images/q17_leg_pulley.PNG"
                                         },
                                         {
@@ -1895,7 +1895,7 @@
                                                             "Y",
                                                             "Z"
                                                         ],
-                                            "correctAnswer":  0,
+                                            "correctAnswer":  2,
                                             "image":  "images/q20_golf_ball.PNG"
                                         },
                                         {
@@ -1906,7 +1906,7 @@
                                                             "C",
                                                             "D"
                                                         ],
-                                            "correctAnswer":  1,
+                                            "correctAnswer":  0,
                                             "image":  "images/q21_learning_curves.PNG"
                                         },
                                         {
